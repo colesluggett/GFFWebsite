@@ -13,44 +13,12 @@ body{
   margin:auto;
   height: auto;
 }
-.third {
-  font-family: 'Libre Franklin', sans-serif;
-  background-color: white;
-  margin: auto;
-  float: left;
-  width: 30%;
-  height: auto;
-  display:inline-block;
-  clear: right;
-  padding:1.66666666667%;
-}
-.third h3{
-  font-size: 20px;
-}
-h2{
-  font-family: 'Libre Franklin', sans-serif;
-  padding:30px;
-  margin:0;
-}
-.third p{
-  font-size: 15px;
-}
 #logo img{
   max-width: 100px;
   height: auto;
   float:left;
 }
 li #logo{
-
-}
-.content{
-  height: inherit;
-}
-body p{
-  padding-top:100px;
-}
-.slides{
-  display: inline-block;
 
 }
 .header{

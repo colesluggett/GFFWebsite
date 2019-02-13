@@ -1,0 +1,24 @@
+.content{
+  padding-top: 120px;
+  height: 720px;
+}
+body p{
+  margin: 0;
+}
+#desc p{
+  margin:15px;
+  padding-bottom: 25px;
+}
+#desc{
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+  line-height: 35px;
+  padding: 0 95px;
+  font-size: 20px;
+}
+h2{
+  font-family: 'Libre Franklin', sans-serif;
+  padding:30px;
+  padding-bottom: 100px;
+  margin:0px;
+}

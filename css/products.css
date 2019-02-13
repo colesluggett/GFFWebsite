@@ -1,0 +1,29 @@
+.content{
+  padding-top: 120px;
+  height: inherit;
+}
+body p{
+  margin: 0;
+}
+#desc p{
+  margin:15px;
+  padding-bottom: 25px;
+}
+.slides{
+  display: inline-block;
+}
+#desc{
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: left;
+  line-height: 35px;
+  padding: 0 95px;
+  font-size: 20px;
+}
+
+h2{
+  font-family: 'Libre Franklin', sans-serif;
+  padding:30px;
+  padding-bottom: 0px;
+  margin:0px;
+  text-align: center;
+}

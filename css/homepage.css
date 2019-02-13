@@ -1,0 +1,64 @@
+.content{
+  height: inherit;
+}
+body p{
+  padding-top:100px;
+}
+.content{
+  padding-top: 20px;
+  height: inherit;
+}
+body p{
+  margin: 0;
+  padding-bottom: 15px;
+}
+#desc p{
+  margin:15px;
+  padding-bottom: 25px;
+}
+.slides{
+  display: inline-block;
+}
+#desc{
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: left;
+  line-height: 35px;
+  padding: 0 95px;
+  font-size: 20px;
+}
+
+h2{
+  font-family: 'Libre Franklin', sans-serif;
+  padding:30px;
+  padding-bottom: 0px;
+  margin:0px;
+  text-align: center;
+}
+
+.slides{
+  display: inline-block;
+
+}
+.third {
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: white;
+  margin: auto;
+  float: left;
+  width: 30%;
+  height: auto;
+  display:inline-block;
+  clear: right;
+  padding:1.66666666667%;
+}
+.third h3{
+  font-size: 20px;
+}
+h2{
+  font-family: 'Libre Franklin', sans-serif;
+  padding:30px;
+  padding-bottom: 0px;
+  margin:0;
+}
+.third p{
+  font-size: 15px;
+}
