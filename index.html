@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gap Fillers Flathead</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Franklin|Lobster" rel="stylesheet">
+  </head>
+    <body>
+      <div class=info>
+      <div class="header">
+      		<ul>
+      			<li class="left"><a href="./index.html">Home</a></li>
+      			<li><a href="./html/about.html">About Us</a></li>
+            <li><a href="./html/mission.html">Mission Statement</a></li>
+            <li>
+            <div id="logo">
+          		<img src="images/GapFillersThumb.jpg" alt="GFF Logo">
+            </div>
+            </li>
+      			<li><a href="./html/products.html">Products Donations</a></li>
+      			<li><a href="./html/donate.html">Donate</a></li>
+      			<li class="right"><a href="./html/contact.html">Contact Us</a></li>
+      		</ul>
+      </div>
+      <div class="content">
+        <p>"A forgotten child can fall through the cracks. We stand in the gap."</p>
+        <div class="slides" style="max-width:1000px">
+          <img class="mySlides" src="./images/ex1.jpg" style="width:100%">
+          <img class="mySlides" src="./images/ex2.jpg" style="width:100%">
+          <img class="mySlides" src="./images/ex3.jpg" style="width:100%">
+        </div>
+        <h2>News and Updates</h2>
+        <div class="third">
+          <h3>Example News 1</h3>
+          <img src="./images/news.jpg" alt="NEWS IMAGE">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nam eu bibendum nibh. Integer eleifend ut ligula congue
+            consequat. Nullam vehicula aliquet arcu. Nunc sollicitudin
+            suscipit tristique. Aenean non nulla non lorem fermentum elementum
+             vel in massa. Proin ullamcorper lorem auctor eros dictum</p>
+        </div>
+        <div class="third">
+          <h3>Example News 2</h3>
+          <img src="./images/news.jpg" alt="NEWS IMAGE">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nam eu bibendum nibh. Integer eleifend ut ligula congue
+            consequat. Nullam vehicula aliquet arcu. Nunc sollicitudin
+            suscipit tristique. Aenean non nulla non lorem fermentum elementum
+             vel in massa. Proin ullamcorper lorem auctor eros dictum</p>
+        </div>
+        <div class="third">
+          <h3>Example News 3</h3>
+          <img src="./images/news.jpg" alt="NEWS IMAGE">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nam eu bibendum nibh. Integer eleifend ut ligula congue
+            consequat. Nullam vehicula aliquet arcu. Nunc sollicitudin
+            suscipit tristique. Aenean non nulla non lorem fermentum elementum
+             vel in massa. Proin ullamcorper lorem auctor eros dictum</p>
+        </div>
+      </div>
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 4000); // Change image every 2 seconds
+        }
+      </script>
+      </div>
+    </body>
+</html>
