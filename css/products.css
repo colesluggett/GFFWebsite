@@ -1,16 +1,17 @@
 .content{
   padding-top: 120px;
-  height: inherit;
+  height: 720px;
 }
 body p{
   margin: 0;
+  padding-top: 20px;
+  width: 800px;
+  margin: auto;
 }
 #desc p{
-  margin:15px;
+  margin:auto;
   padding-bottom: 25px;
-}
-.slides{
-  display: inline-block;
+
 }
 #desc{
   font-family: 'Libre Franklin', sans-serif;
@@ -19,7 +20,6 @@ body p{
   padding: 0 95px;
   font-size: 20px;
 }
-
 h2{
   font-family: 'Libre Franklin', sans-serif;
   padding:30px;
